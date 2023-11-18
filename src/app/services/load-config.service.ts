@@ -15,7 +15,7 @@ export class LoadConfigService {
 
   // Locates and returns an Observable for the JSON config
   // in static assets that corresponds to the requested section.
-  getConfigForSection(sectionName: AppSections): Observable<Object> {
+  getConfigForSection(sectionName: AppSections): Observable<any> {
     return this.httpClient.get(`../assets/config/${sectionName}.json`);
   }
 }

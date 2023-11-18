@@ -1,5 +1,8 @@
-// TODO: create color theme
-// :root {}
+:root {
+    --background: #121212;
+    --light-gray: #bdbebf;
+    --moving-image-width: 1920px;
+}
 
 * {
     box-sizing: border-box;
@@ -9,4 +12,42 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: var(--background);
+    color: white;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.profile-img {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.title {
+    font-family: 'Tourney', sans-serif;
+    font-size: 2.5rem;
+}
+
+.moving-stars-container {
+    overflow: hidden;
+}
+
+.moving-stars {
+    width: calc(var(--moving-image-width) * 2);
+    height: 100vh;
+    background: url('assets/images/stars-background.jpeg') repeat-x;
+    animation: slide 240s linear infinite;
+    z-index: -1;
+}
+
+@keyframes slide {
+    0% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translate(calc(var(--moving-image-width) * -1));
+    }
 }
