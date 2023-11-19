@@ -19,6 +19,7 @@ html, body {
 
 .hidden {
     visibility: hidden;
+    pointer-events: none;
 }
 
 .profile-img {

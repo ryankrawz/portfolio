@@ -1,1 +1,69 @@
-{}
+{
+  "jobs": [
+    {
+      "start": "Jan 1920",
+      "end": "Dec 1929",
+      "role": "Jay Gatsby",
+      "company": "Roaring 20s",
+      "description": "The Roaring Twenties, sometimes stylized as Roaring '20s, refers to the 1920s decade in music and fashion, as it happened in Western society and Western culture.",
+      "experiences": [
+        "Looked out at the green light",
+        "Hit somebody with my car",
+        "Fell in love with Daisy and threw a massive party where there were a ton of people there having fun and partying really hard"
+      ],
+      "image": "assets/images/roaring-20s.jpeg"
+    },
+    {
+      "start": "Jan 1930",
+      "end": "Dec 1933",
+      "role": "Beggar",
+      "company": "Great Depression",
+      "description": "The Great Depression was an economic shock that affected most countries across the world. It was a period of economic depression that became evident after a major fall in stock prices in the United States.",
+      "experiences": [
+        "At turtle soup",
+        "Fought someone in the street and man did I lose like he really beat me up, I'm unsure how I'll ever recover emotionaly",
+        "Asked a passerby on the street if I could have a piece of bread and they politely declined which I thought was sort of rude to be honest"
+      ],
+      "image": "assets/images/great-depression.jpeg"
+    },
+    {
+      "start": "Sep 1941",
+      "end": "May 1945",
+      "role": "Winston Churchill",
+      "company": "World War II",
+      "description": "World War II or the Second World War was a global conflict that lasted from 1939 to 1945. The vast majority of the world's countries, including all the great powers, fought as part of two opposing military alliances: the Allies and the Axis.",
+      "experiences": [
+        "Fought in the trenches and lost both of my feet unfortunately",
+        "Rolled around in a tank and looked for bad guys",
+        "Ate military rations like really hard biscuits and other similar foods"
+      ],
+      "image": "assets/images/roaring-20s.jpeg"
+    },
+    {
+      "start": "Jan 1960",
+      "end": "Dec 1970",
+      "role": "Ronald Reagon",
+      "company": "Cold War",
+      "description": "The Cold War was a period of geopolitical tension between the United States and the Soviet Union and their respective allies, the Western Bloc and the Eastern Bloc.",
+      "experiences": [
+        "Found out that Communists aren't a lot of fun",
+        "I was out on the water in a dingy during the Cuban Missile Crisis and it was a close call",
+        "Worked as an undercover secret agent in Russia and I was pretty good"
+      ],
+      "image": "assets/images/great-depression.jpeg"
+    },
+    {
+      "start": "Jan 1970",
+      "end": "Dec 1980",
+      "role": "A Hippie",
+      "company": "Flower Power",
+      "description": "Flower power was a slogan used during the late 1960s and early 1970s as a symbol of passive resistance and nonviolence.",
+      "experiences": [
+        "Did the peace sign a lot and other people enjoyed it",
+        "Rode around on a bus and waved to people and told them to be peaceful",
+        "Went to DC and protested people going to war because that's no fun"
+      ],
+      "image": "assets/images/roaring-20s.jpeg"
+    }
+  ]
+}

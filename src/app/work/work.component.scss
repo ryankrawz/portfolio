@@ -1,0 +1,36 @@
+.job {
+  height: 100vh;
+  background-size: cover;
+}
+
+.job-info {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.timeline {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+
+  i {
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px var(--background);
+  }
+}
+
+.timeline-line {
+  height: 3px;
+  background-color: white;
+
+  &.left {
+    width: 17.5%;
+    border-radius: 0 2px 2px 0;
+  }
+
+  &.right {
+    width: 82.5%;
+    border-radius: 2px 0 0 2px;
+  }
+}
