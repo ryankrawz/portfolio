@@ -1,7 +1,19 @@
 <!-- Nav bar -->
-<header>
-  <nav>
-    <div id="nav-profile-container" [ngClass]="{ hidden: !scrolledPastIntro }">
+<header [ngClass]="{ 'moving-stars-container': navBarOpacityClass !== '' }">
+  <div
+    [ngClass]="{ 'moving-stars nav-stars': navBarOpacityClass !== '' }"
+  ></div>
+  <nav
+    id="page-nav"
+    [ngClass]="[
+      'transparent',
+      navBarOpacityClass !== '' ? 'fixed-nav ' + navBarOpacityClass : ''
+    ]"
+  >
+    <div
+      id="nav-profile-container"
+      [ngClass]="{ hidden: navBarOpacityClass === '' }"
+    >
       <img
         class="profile-img"
         src="assets/images/profile.jpeg"

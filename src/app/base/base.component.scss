@@ -8,6 +8,10 @@ nav {
   z-index: 1;
 }
 
+.transparent {
+  background-color: transparent;
+}
+
 #nav-profile-container {
   width: 50%;
   display: flex;
@@ -45,4 +49,29 @@ nav {
 
 .nav-link:hover {
   box-shadow: inset 0 0 10px 0 white;
+}
+
+.fixed-nav {
+  position: fixed;
+}
+
+.nav-stars {
+  position: fixed;
+  height: 80px;
+  z-index: 1;
+}
+
+// Increased opacity on nav bar as
+// user scrolls out of intro section.
+.nav-bar-opacity- {
+  &1 { opacity: 0.1; }
+  &2 { opacity: 0.2; }
+  &3 { opacity: 0.3; }
+  &4 { opacity: 0.4; }
+  &5 { opacity: 0.5; }
+  &6 { opacity: 0.6; }
+  &7 { opacity: 0.7; }
+  &8 { opacity: 0.8; }
+  &9 { opacity: 0.9; }
+  &10 { opacity: 1; }
 }

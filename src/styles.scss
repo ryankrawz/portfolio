@@ -1,5 +1,5 @@
 :root {
-    --background: #121212;
+    --background: black;
     --light-gray: #bdbebf;
     --moving-image-width: 1920px;
 }
@@ -39,7 +39,8 @@ html, body {
     width: calc(var(--moving-image-width) * 2);
     height: 100vh;
     background: url('assets/images/stars-background.jpeg') repeat-x;
-    animation: slide 240s linear infinite;
+    // Background cycles through every 3.5 min
+    animation: slide 210s linear infinite;
     z-index: -1;
 }
 
