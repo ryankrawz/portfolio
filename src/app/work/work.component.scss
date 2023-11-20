@@ -1,36 +1,40 @@
-.job {
+.prof-experiences-container {
   height: 100vh;
-  background-size: cover;
 }
 
-.job-info {
-  width: 70%;
-  margin: 0 auto;
+.section-header {
+  position: absolute;
+  left: 3%;
+  top: 111.5vh;
+  margin: 0;
+  font-size: 2rem;
 }
 
-.timeline {
-  width: 100%;
+.page-button-container {
+  position: absolute;
+  top: 150vh;
+  left: 5%;
+  right: 5%;
   display: flex;
-  align-items: flex-end;
-  gap: 3px;
+  justify-content: space-between;
+  font-size: 3rem;
 
   i {
-    font-size: 2rem;
-    text-shadow: 1px 1px 2px var(--background);
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0.8;
+    cursor: pointer;
   }
 }
 
-.timeline-line {
-  height: 3px;
-  background-color: white;
-
-  &.left {
-    width: 17.5%;
-    border-radius: 0 2px 2px 0;
-  }
-
-  &.right {
-    width: 82.5%;
-    border-radius: 2px 0 0 2px;
-  }
+.job-container {
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  transition: margin-left 2s;
 }

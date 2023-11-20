@@ -1,13 +1,5 @@
-<div
-  *ngIf="currentJob"
-  class="job"
-  [ngStyle]="{ background: 'url(' + currentJob.image + ')' }"
->
-  <div class="timeline">
-    <div class="timeline-line left"></div>
-    <i class="fa-solid fa-map-pin"></i>
-    <div class="timeline-line right"></div>
-  </div>
+<div class="prof-experiences-container">
+  <h1 class="section-header">Professional Experiences</h1>
   <div class="page-button-container">
     <i
       [ngClass]="[
@@ -24,13 +16,7 @@
       (click)="onPageRight()"
     ></i>
   </div>
-  <article class="job-info">
-    <p>{{ currentJob.start }} — {{ currentJob.end }}</p>
-    <h1>{{ currentJob.role }}</h1>
-    <h2>{{ currentJob.company }}</h2>
-    <p>{{ currentJob.description }}</p>
-    <ul *ngIf="currentJob.experiences && currentJob.experiences.length > 0">
-      <li *ngFor="let exp of currentJob.experiences">{{ exp }}</li>
-    </ul>
-  </article>
+  <div class="job-container" [ngStyle]="{ 'margin-left': slideAmount + 'vw' }">
+    <app-job *ngFor="let job of jobs" [job]="job"></app-job>
+  </div>
 </div>

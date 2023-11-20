@@ -1,0 +1,16 @@
+<div *ngIf="job" class="job" [ngStyle]="{ 'background-image': jobBackground }">
+  <div class="timeline">
+    <div class="timeline-line left"></div>
+    <i class="fa-regular fa-circle"></i>
+    <div class="timeline-line right"></div>
+  </div>
+  <article class="job-info">
+    <p>{{ job.start }} — {{ job.end }}</p>
+    <h1>{{ job.role }}</h1>
+    <h2>{{ job.company }}</h2>
+    <p>{{ job.description }}</p>
+    <ul *ngIf="job.experiences && job.experiences.length > 0">
+      <li *ngFor="let exp of job.experiences">{{ exp }}</li>
+    </ul>
+  </article>
+</div>

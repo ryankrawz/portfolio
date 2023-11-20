@@ -3,33 +3,26 @@ import { CommonModule } from '@angular/common';
 
 import { LoadConfigService } from '../services/load-config.service';
 import { AppSections } from '../shared/enums/AppSections';
-
-interface Job {
-  start: string;
-  end: string;
-  role: string;
-  company: string;
-  description: string;
-  experiences?: string[];
-  image: string;
-}
+import { JobComponent } from './job/job.component';
+import { Job } from '../shared/interfaces/Job';
 
 @Component({
   selector: 'app-work',
   standalone: true,
-  imports: [CommonModule],
+  imports: [
+    CommonModule,
+    JobComponent,
+  ],
   templateUrl: './work.component.html',
   styleUrl: './work.component.scss'
 })
 export class WorkComponent implements OnInit {
-  // List of jobs with time, description, role, etc.
-  private _jobs: Job[] = [];
-
   // Track job currently being viewed in order to
   // correctly display job info and paging chevrons.
+  jobs: Job[] = [];
   currentJobIdx: number = 0;
   maxJobIdx: number = 0;
-  currentJob: Job | null = null;
+  slideAmount: number = 0;
 
   constructor(
     private loadConfigService: LoadConfigService,
@@ -37,10 +30,9 @@ export class WorkComponent implements OnInit {
 
   ngOnInit(): void {
     this.loadConfigService.getConfigForSection(AppSections.WORK).subscribe(introObj => {
-      this._jobs = introObj['jobs'];
-      if (this._jobs.length > 0) {
-        this.maxJobIdx = this._jobs.length - 1;
-        this.currentJob = this._jobs[this.currentJobIdx];
+      this.jobs = introObj['jobs'];
+      if (this.jobs.length > 0) {
+        this.maxJobIdx = this.jobs.length - 1;
       }
     });
   }
@@ -49,17 +41,19 @@ export class WorkComponent implements OnInit {
   * EVENT HANDLERS
   */
 
+  // To slide from left to right, move left margin to right by 100vw
   onPageLeft() {
     if (this.currentJobIdx > 0) {
       this.currentJobIdx--;
-      this.currentJob = this._jobs[this.currentJobIdx];
+      this.slideAmount += 100;
     }
   }
 
+  // To slide from right to left, move left margin to left by 100vw
   onPageRight() {
     if (this.currentJobIdx < this.maxJobIdx) {
       this.currentJobIdx++;
-      this.currentJob = this._jobs[this.currentJobIdx];
+      this.slideAmount -= 100;
     }
   }
 

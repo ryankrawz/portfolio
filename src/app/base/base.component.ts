@@ -34,7 +34,7 @@ export class BaseComponent implements OnInit, OnDestroy {
   private _navBarOpacityIntervals: number[] = [];
   // Subscription to window resize events so that opacity intervals can be adjusted to
   // new size of window. RXJS preferred over @HostListener since it supports throttling.
-  private _windowResizeSub: Subscription | null = null;
+  private _windowResizeSub: Subscription | undefined;
 
   constructor(
     @Inject(DOCUMENT) private document: Document,
