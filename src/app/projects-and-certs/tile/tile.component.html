@@ -1,1 +1,17 @@
-<p>tile works!</p>
+<div *ngIf="project && tagColors" class="project">
+  <a class="project-link" [href]="safeUrl" target="_blank">
+    <h2>
+      {{ project.name
+      }}<span class="project-type chip">{{ project.type }}</span>
+    </h2>
+    <div class="tag-container">
+      <span
+        *ngFor="let tag of project.tags"
+        class="chip"
+        [ngStyle]="{ 'background-color': tagColors[tag] }"
+        >{{ tag }}</span
+      >
+    </div>
+    <p>{{ project.description }}</p>
+  </a>
+</div>

@@ -1,51 +1,10 @@
-<p>
-  Ultricies, libero. Sagittis fames semper volutpat pretium eros consequat sit
-  netus pellentesque. Commodo. Habitasse. Leo ultrices pretium ligula fames.
-  Ultricies, eu placerat hac. Tristique arcu nulla tincidunt congue lacinia
-  justo parturient tempus sodales congue metus. Magnis quis mus pulvinar
-  hendrerit orci. Semper maecenas facilisi euismod scelerisque nostra praesent
-  tempus proin iaculis fames lobortis mattis dictumst nullam magna torquent diam
-  fringilla mollis integer massa potenti augue varius feugiat nascetur lorem
-  fermentum duis sociis nunc magnis sociis cursus augue quis vivamus blandit
-  molestie. Lorem feugiat volutpat laoreet etiam nullam rutrum praesent pede
-  platea ullamcorper, nam est. Aliquam torquent cum adipiscing blandit aliquam
-  maecenas mus etiam, convallis iaculis. Nulla luctus vehicula varius tellus
-  massa conubia cursus fusce eu nec fermentum mollis lorem magnis dolor tortor.
-  Aptent mi ut, vulputate interdum suscipit maecenas vel ipsum orci pellentesque
-  ad nascetur, id posuere integer justo nam id eros rutrum nisl urna sagittis
-  lorem quisque facilisi. Eu sodales auctor lacus gravida natoque fames erat
-  cursus cum eu fermentum pulvinar habitant suspendisse ante. Luctus. Magna
-  viverra augue integer nascetur erat tortor scelerisque aliquet curabitur
-  dapibus nulla pulvinar faucibus sociis turpis at rutrum vestibulum nulla
-  natoque pharetra viverra nullam eu fringilla massa montes ultrices sit
-  lobortis massa auctor euismod commodo augue rutrum tempus nisi at felis
-  ridiculus Ultricies habitant libero vestibulum porta congue rutrum dui
-  dignissim ad lobortis consequat Quam. Donec. Gravida hymenaeos fermentum.
-  Taciti. Vulputate orci ipsum tellus in dolor morbi elementum ridiculus
-  torquent ultrices felis lobortis pharetra tincidunt blandit adipiscing Varius
-  dignissim laoreet parturient etiam hac venenatis mattis neque fringilla
-  iaculis et. Gravida porta pretium semper pharetra urna dictum venenatis.
-  Phasellus quisque tristique nec vivamus ac consectetuer eu morbi placerat.
-  Pharetra in varius nam torquent semper quam massa amet praesent justo etiam
-  sagittis. Natoque turpis etiam ligula Convallis vehicula, pretium hac pede
-  justo malesuada. Eros posuere nisi vel ante imperdiet orci ligula, mollis.
-  Ultricies felis malesuada cum, habitant fringilla sapien. Montes nec. Orci
-  cubilia lacus dolor scelerisque habitasse iaculis condimentum diam adipiscing
-  hendrerit ligula suscipit eu dolor neque vehicula turpis. Nulla diam metus
-  auctor. Neque dapibus. Bibendum elementum per et nulla per scelerisque nec.
-  Facilisi elit sodales nulla. Torquent hac. Dictum faucibus, fringilla sociis
-  mattis metus cum arcu rutrum molestie donec duis euismod. Congue sollicitudin
-  neque magna duis neque quam cubilia mus penatibus condimentum parturient
-  sollicitudin quis auctor mi platea ut facilisis vitae eleifend, tortor dolor
-  tristique. Elit interdum hendrerit neque eu pulvinar. Nunc quisque natoque nec
-  cras risus maecenas per, quisque mollis laoreet bibendum libero platea gravida
-  proin non nullam, suspendisse netus. Aliquet interdum nisl. Sem eget donec
-  class aptent varius sociosqu imperdiet mauris, habitasse tempus hymenaeos
-  cubilia sit nascetur fringilla curae;. Tellus accumsan congue mauris, aliquet
-  dapibus cras ac. Facilisi eu. Magna. Ut nec. Inceptos nullam vitae urna diam
-  tempus condimentum et sem sagittis hac maecenas vestibulum volutpat lorem
-  curabitur semper hymenaeos mi. Urna tristique Aenean gravida. Ad. Vestibulum
-  interdum. Turpis mattis taciti quis posuere dictumst imperdiet eleifend.
-  Torquent metus fermentum vel est habitasse in potenti, quam integer nulla
-  fusce etiam urna vestibulum suspendisse nec.
-</p>
+<div class="section-container">
+  <h1 class="projects-and-certs-header">Projects & Certifications</h1>
+  <div class="projects-and-certs-grid">
+    <app-tile
+      *ngFor="let project of projects"
+      [project]="project"
+      [tagColors]="tagColors"
+    ></app-tile>
+  </div>
+</div>

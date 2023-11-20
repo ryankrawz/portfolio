@@ -1,0 +1,37 @@
+.projects-and-certs-header {
+  margin: 0 50px;
+  padding: 100px 0 50px 0;
+  font-size: 2rem;
+}
+
+.projects-and-certs-grid {
+  padding: 0 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+}
+
+/*
+* MOBILE RESPONSIVENESS
+*/
+
+// Laptop
+@media only screen and (min-width: 901px) and (max-width: 1300px) {
+  .projects-and-certs-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+// Tablet
+@media only screen and (min-width: 501px) and (max-width: 900px) {
+  .projects-and-certs-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+// Phone
+@media only screen and (max-width: 500px) {
+  .projects-and-certs-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

@@ -29,8 +29,8 @@ export class WorkComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    this.loadConfigService.getConfigForSection(AppSections.WORK).subscribe(introObj => {
-      this.jobs = introObj['jobs'];
+    this.loadConfigService.getConfigForSection(AppSections.WORK).subscribe(workObj => {
+      this.jobs = workObj['jobs'];
       if (this.jobs.length > 0) {
         this.maxJobIdx = this.jobs.length - 1;
       }

@@ -1,0 +1,90 @@
+.project {
+  padding: 10px;
+  text-decoration: none;
+  border: 2px solid var(--transparent-white);
+  border-radius: 10px;
+  overflow: hidden;
+  background-image: linear-gradient(270deg, var(--deep-purple), var(--background));
+  background-size: 400% 400%;
+  animation: shift-background-position 30s ease infinite;
+  // Eases button dilation
+  transition: 0.6s;
+  box-shadow: 0 0 5px 0 white;
+
+  // Pseudo-element shine animation (before)
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    width: 60px;
+    height: 110%;
+    top: 0;
+    filter: blur(30px);
+    transform: translateX(-150px) skewX(-15deg);
+    z-index: -1;
+  }
+
+  // Pseudo-element shine animation (after)
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2);
+    width: 30px;
+    height: 110%;
+    top: 0;
+    filter: blur(5px);
+    transform: translateX(-150px) skewX(-15deg);
+    z-index: -1;
+  }
+
+  // Dilate and shine on hover
+  &:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+
+    &::before, &::after {
+      transform: translateX(500px) skewX(-15deg);
+      transition: 0.5s;
+    }
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.project-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.chip {
+  padding: 2px 4px;
+  border-radius: 10px;
+}
+
+.project-type {
+  margin-left: 7.5px;
+  font-size: 0.75rem;
+  background-color: white;
+  color: var(--deep-purple);
+  vertical-align: middle;
+}
+
+.tag-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+@keyframes shift-background-position {
+  0% { background-position: 1% 0%; }
+  50% { background-position: 99% 100%; }
+  100% { background-position: 1% 0%; }
+}
