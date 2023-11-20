@@ -10,6 +10,9 @@ import { Job } from '../../shared/interfaces/Job';
   styleUrl: './job.component.scss'
 })
 export class JobComponent implements OnInit {
+  // Tracking if the organization name was clicked and should be expanded
+  orgClicked: boolean = false;
+
   @Input({ required: true }) job: Job | undefined;
 
   jobBackground: string = '';
@@ -18,5 +21,9 @@ export class JobComponent implements OnInit {
     if (this.job) {
       this.jobBackground = `linear-gradient(to bottom, rgba(0, 0, 0, 30%), black), url('${this.job.image}')`;
     }
+  }
+
+  onOrgSectionToggle() {
+    this.orgClicked = !this.orgClicked;
   }
 }

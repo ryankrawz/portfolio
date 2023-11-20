@@ -16,6 +16,7 @@
       (click)="onPageRight()"
     ></i>
   </div>
+  <!-- Adjusting margin-left slides images off-screen left/right depending on negative/positive value -->
   <div class="job-container" [ngStyle]="{ 'margin-left': slideAmount + 'vw' }">
     <app-job *ngFor="let job of jobs" [job]="job"></app-job>
   </div>

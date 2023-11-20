@@ -36,4 +36,63 @@
 .job-info {
   width: 70%;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+
+  ul {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+.org-container {
+  width: 100%;
+  padding: 0 20px;
+  overflow: hidden;
+  border: 2px solid var(--transparent-white);
+  border-radius: 10px;
+  cursor: pointer;
+  // To appear on top of the page button container and
+  // still convert cursor to pointer.
+  z-index: 1;
+
+  // For smooth expanding/collapsing
+  &.expand {
+    max-height: 250px;
+    transition: max-height 1s;
+  }
+
+  &.collapse {
+    max-height: 67.5px;
+    // Collapses faster since first 100px of max-height
+    // shrinks in overflow area and isn't seen.
+    transition: max-height 0.28s;
+  }
+}
+
+.company-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+// Checkbox bullet points instead of standard bullet
+.skill-item {
+  display: flex;
+  align-items: flex-start;
+  list-style: none;
+
+  &::before {
+    content: '';
+      display: inline-block;
+      margin-right: 10px;
+      height: 20px;
+      width: 18px;
+      background-image: url('../../../assets/images/square-check-solid.svg');
+      background-size: cover;
+  }
 }

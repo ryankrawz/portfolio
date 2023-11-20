@@ -5,12 +5,22 @@
     <div class="timeline-line right"></div>
   </div>
   <article class="job-info">
-    <p>{{ job.start }} — {{ job.end }}</p>
-    <h1>{{ job.role }}</h1>
-    <h2>{{ job.company }}</h2>
-    <p>{{ job.description }}</p>
+    <p>
+      <em>{{ job.start }}</em> — <em>{{ job.end }}</em>
+    </p>
+    <h2>{{ job.role }}</h2>
+    <div
+      [ngClass]="['org-container', orgClicked ? 'expand' : 'collapse']"
+      (click)="onOrgSectionToggle()"
+    >
+      <h1 class="company-header">
+        <span>{{ job.company }}</span
+        ><i [ngClass]="['fa-solid', orgClicked ? 'fa-minus' : 'fa-plus']"></i>
+      </h1>
+      <p>{{ job.description }}</p>
+    </div>
     <ul *ngIf="job.experiences && job.experiences.length > 0">
-      <li *ngFor="let exp of job.experiences">{{ exp }}</li>
+      <li *ngFor="let exp of job.experiences" class="skill-item">{{ exp }}</li>
     </ul>
   </article>
 </div>
