@@ -1,1 +1,17 @@
-{}
+{
+  "message": "Thanks for learning a little about me. Reach out and I can do a lot for you!",
+  "links": [
+    {
+      "icon": "fa-brands fa-github",
+      "url": "https://github.com/ryankrawz"
+    },
+    {
+      "icon": "fa-brands fa-linkedin",
+      "url": "https://www.linkedin.com/in/ryan-krawczyk-24218514b/"
+    },
+    {
+      "icon": "fa-solid fa-envelope",
+      "url": "mailto: ryankrawz11@gmail.com"
+    }
+  ]
+}

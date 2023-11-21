@@ -3,7 +3,9 @@
     --light-gray: #bdbebf;
     --moving-image-width: 1920px;
     --transparent-white: rgba(255, 255, 255, 0.8);
+    --transparent-black: rgba(0, 0, 0, 0.8);
     --deep-purple: #18002f;
+    --wiggle-degree: 10deg;
 }
 
 * {
@@ -35,6 +37,7 @@ html, body {
 }
 
 .moving-stars-container {
+    position: relative;
     overflow: hidden;
 }
 
