@@ -1,23 +1,24 @@
 .prof-experiences-header {
+  width: 100%;
   position: absolute;
-  left: 50px;
-  top: 111.5vh;
-  margin: 0;
+  top: 9vh;
+  margin: 0 auto;
   font-size: 2rem;
+  text-align: center;
 }
 
 .page-button-container {
   position: absolute;
-  top: 150vh;
+  top: 19vh;
   left: 5%;
   right: 5%;
   display: flex;
   justify-content: space-between;
-  font-size: 3rem;
+  font-size: 2rem;
 
   i {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,4 +35,38 @@
   display: flex;
   overflow: hidden;
   transition: margin-left 2s;
+}
+
+/*
+* SCREEN SIZE RESPONSIVENESS
+*/
+
+// Tablet and laptop
+@media only screen and (min-width: 501px) and (max-width: 1300px) {
+  .prof-experiences-header {
+    margin: 0;
+    top: 11.5vh;
+    left: 50px;
+    text-align: left;
+  }
+}
+
+// Desktop
+@media only screen and (min-width: 1301px) {
+  .prof-experiences-header {
+    margin: 0;
+    top: 11.5vh;
+    left: 50px;
+    text-align: left;
+  }
+
+  .page-button-container {
+    top: 50vh;
+    font-size: 3rem;
+
+    i {
+      width: 80px;
+      height: 80px;
+    }
+  }
 }

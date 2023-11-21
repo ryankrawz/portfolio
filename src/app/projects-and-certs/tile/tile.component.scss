@@ -11,45 +11,6 @@
   transition: 0.6s;
   box-shadow: 0 0 5px 0 white;
 
-  // Pseudo-element shine animation (before)
-  &::before {
-    content: '';
-    display: block;
-    position: absolute;
-    background: rgba(255, 255, 255, 0.5);
-    width: 60px;
-    height: 110%;
-    top: 0;
-    filter: blur(30px);
-    transform: translateX(-150px) skewX(-15deg);
-    z-index: -1;
-  }
-
-  // Pseudo-element shine animation (after)
-  &::after {
-    content: '';
-    display: block;
-    position: absolute;
-    background: rgba(255, 255, 255, 0.2);
-    width: 30px;
-    height: 110%;
-    top: 0;
-    filter: blur(5px);
-    transform: translateX(-150px) skewX(-15deg);
-    z-index: -1;
-  }
-
-  // Dilate and shine on hover
-  &:hover{
-    transform: scale(1.1);
-    cursor: pointer;
-
-    &::before, &::after {
-      transform: translateX(500px) skewX(-15deg);
-      transition: 0.5s;
-    }
-  }
-
   h2 {
     margin-top: 0;
   }
@@ -87,4 +48,52 @@
   0% { background-position: 1% 0%; }
   50% { background-position: 99% 100%; }
   100% { background-position: 1% 0%; }
+}
+
+/*
+* SCREEN SIZE RESPONSIVENESS
+*/
+
+// Laptop and desktop
+@media only screen and (min-width: 901px) {
+  .project {
+    // Pseudo-element shine animation (before)
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      background: rgba(255, 255, 255, 0.5);
+      width: 60px;
+      height: 110%;
+      top: 0;
+      filter: blur(30px);
+      transform: translateX(-150px) skewX(-15deg);
+      z-index: -1;
+    }
+
+    // Pseudo-element shine animation (after)
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      background: rgba(255, 255, 255, 0.2);
+      width: 30px;
+      height: 110%;
+      top: 0;
+      filter: blur(5px);
+      transform: translateX(-150px) skewX(-15deg);
+      z-index: -1;
+    }
+
+    // Dilate and shine on hover
+    &:hover{
+      transform: scale(1.1);
+      cursor: pointer;
+
+      &::before, &::after {
+        transform: translateX(500px) skewX(-15deg);
+        transition: 0.5s;
+      }
+    }
+  }
 }

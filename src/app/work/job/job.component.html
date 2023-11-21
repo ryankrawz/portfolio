@@ -20,7 +20,9 @@
       <p>{{ job.description }}</p>
     </div>
     <ul *ngIf="job.experiences && job.experiences.length > 0">
-      <li *ngFor="let exp of job.experiences" class="skill-item">{{ exp }}</li>
+      <li *ngFor="let exp of job.experiences" class="skill-item">
+        <span>{{ exp }}</span>
+      </li>
     </ul>
   </article>
 </div>
