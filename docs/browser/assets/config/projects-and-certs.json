@@ -1,0 +1,87 @@
+{
+  "projects": [
+    {
+      "name": "freeCodeCamp Responsive Web Design",
+      "description": "In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.",
+      "tags": ["HTML", "CSS", "Web Design", "Accessibility"],
+      "type": "Certification",
+      "link": "https://www.freecodecamp.org/certification/ryankrawczyk/responsive-web-design"
+    },
+    {
+      "name": "freeCodeCamp Responsive Web Design",
+      "description": "In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.",
+      "tags": ["HTML", "CSS", "Web Design", "Accessibility"],
+      "type": "Project",
+      "link": "https://www.freecodecamp.org/certification/ryankrawczyk/responsive-web-design"
+    },
+    {
+      "name": "freeCodeCamp Responsive Web Design",
+      "description": "In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.",
+      "tags": ["HTML", "CSS", "Web Design", "Accessibility"],
+      "type": "Certification",
+      "link": "https://www.freecodecamp.org/certification/ryankrawczyk/responsive-web-design"
+    },
+    {
+      "name": "freeCodeCamp Responsive Web Design",
+      "description": "In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.",
+      "tags": ["HTML", "CSS", "Web Design", "Accessibility"],
+      "type": "Project",
+      "link": "https://www.freecodecamp.org/certification/ryankrawczyk/responsive-web-design"
+    },
+    {
+      "name": "freeCodeCamp Responsive Web Design",
+      "description": "In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.",
+      "tags": ["HTML", "CSS", "Web Design", "Accessibility"],
+      "type": "Certification",
+      "link": "https://www.freecodecamp.org/certification/ryankrawczyk/responsive-web-design"
+    },
+    {
+      "name": "freeCodeCamp Responsive Web Design",
+      "description": "In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.",
+      "tags": ["HTML", "CSS", "Web Design", "Accessibility"],
+      "type": "Project",
+      "link": "https://www.freecodecamp.org/certification/ryankrawczyk/responsive-web-design"
+    },
+    {
+      "name": "freeCodeCamp Responsive Web Design",
+      "description": "In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.",
+      "tags": ["HTML", "CSS", "Web Design", "Accessibility"],
+      "type": "Certification",
+      "link": "https://www.freecodecamp.org/certification/ryankrawczyk/responsive-web-design"
+    },
+    {
+      "name": "freeCodeCamp Responsive Web Design",
+      "description": "In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.",
+      "tags": ["HTML", "CSS", "Web Design", "Accessibility"],
+      "type": "Project",
+      "link": "https://www.freecodecamp.org/certification/ryankrawczyk/responsive-web-design"
+    },
+    {
+      "name": "freeCodeCamp Responsive Web Design",
+      "description": "In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.",
+      "tags": ["HTML", "CSS", "Web Design", "Accessibility"],
+      "type": "Certification",
+      "link": "https://www.freecodecamp.org/certification/ryankrawczyk/responsive-web-design"
+    },
+    {
+      "name": "freeCodeCamp Responsive Web Design",
+      "description": "In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.",
+      "tags": ["HTML", "CSS", "Web Design", "Accessibility"],
+      "type": "Project",
+      "link": "https://www.freecodecamp.org/certification/ryankrawczyk/responsive-web-design"
+    },
+    {
+      "name": "freeCodeCamp Responsive Web Design",
+      "description": "In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.",
+      "tags": ["HTML", "CSS", "Web Design", "Accessibility"],
+      "type": "Certification",
+      "link": "https://www.freecodecamp.org/certification/ryankrawczyk/responsive-web-design"
+    }
+  ],
+  "tagColors": {
+    "HTML": "#e34d27",
+    "CSS": "#9d73ec",
+    "Web Design": "#c79b01",
+    "Accessibility": "#0133cb"
+  }
+}
