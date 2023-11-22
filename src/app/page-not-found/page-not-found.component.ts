@@ -12,6 +12,7 @@ export class PageNotFoundComponent implements OnInit {
   homeUrl: string | undefined;
 
   ngOnInit(): void {
+      // Root URL is different depending on dev or prod mode
       this.homeUrl = isDevMode() ? '/' : '/portfolio';
   }
 

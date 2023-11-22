@@ -16,7 +16,8 @@ export class LoadConfigService {
   // Locates and returns an Observable for the JSON config
   // in static assets that corresponds to the requested section.
   getConfigForSection(sectionName: AppSections): Observable<any> {
-    const urlRoot = isDevMode() ? '..' : 'portfolio';
-    return this.httpClient.get(`${urlRoot}/assets/config/${sectionName}.json`);
+    // Location of assets is different depending on dev or prod build
+    const urlRoot = isDevMode() ? '../' : '';
+    return this.httpClient.get(`${urlRoot}assets/config/${sectionName}.json`);
   }
 }
