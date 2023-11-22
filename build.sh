@@ -12,5 +12,5 @@ rm -r docs/server
 cp docs/index.html docs/404.html
 # Push commit to be built with GitHub Pages
 git add .
-git commit -m "Build $(date +"%s")"
+git commit -m "Build $(date +"%Y-%m-%d %H:%M:%S")"
 git push
