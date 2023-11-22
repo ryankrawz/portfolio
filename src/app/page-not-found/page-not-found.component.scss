@@ -1,8 +1,8 @@
 #not-found-container {
   position: absolute;
   top: 15vh;
-  left: 27.5%;
-  width: 45%;
+  left: 1.25%;
+  width: 97.5%;
   display: flex;
   padding: 20px 40px;
   flex-direction: column;
@@ -13,6 +13,7 @@
 
   h1, h2, h4 {
     margin: 0;
+    text-align: center;
   }
 
   i {
@@ -20,3 +21,32 @@
     font-size: 2rem;
   }
 }
+
+/*
+* SCREEN SIZE RESPONSIVENESS
+*/
+
+// Tablet
+@media only screen and (min-width: 501px) and (max-width: 900px) {
+  #not-found-container {
+    left: 5%;
+    width: 90%;
+  }
+}
+
+// Laptop
+@media only screen and (min-width: 901px) and (max-width: 1300px) {
+  #not-found-container {
+    left: 10%;
+    width: 80%;
+  }
+}
+
+// Desktop
+@media only screen and (min-width: 1301px) {
+  #not-found-container {
+    left: 27.5%;
+    width: 45%;
+  }
+}
+
