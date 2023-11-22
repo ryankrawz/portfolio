@@ -1,4 +1,4 @@
-import { Injectable } from '@angular/core';
+import { Injectable, isDevMode } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
@@ -16,6 +16,7 @@ export class LoadConfigService {
   // Locates and returns an Observable for the JSON config
   // in static assets that corresponds to the requested section.
   getConfigForSection(sectionName: AppSections): Observable<any> {
-    return this.httpClient.get(`../assets/config/${sectionName}.json`);
+    const urlRoot = isDevMode() ? '..' : 'portfolio';
+    return this.httpClient.get(`${urlRoot}/assets/config/${sectionName}.json`);
   }
 }
