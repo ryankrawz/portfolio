@@ -10,7 +10,7 @@
         "Wrote packageable demo for testing database read and write speeds when ingesting data from Kafka message service",
         "Implemented Velero backup feature for sandbox that hosts Kubernetes-based InterSystems applications",
         "Built pipeline customization tool that allows for configuration of loading, transformation, and validation steps for data in varied formats",
-        "Designed interface for managing topology of data (primary keys, data types, etc.) in disparate sources available for loading"
+        "Designed Angular interface for managing topology of data (primary keys, data types, etc.) in disparate sources available for loading"
       ],
       "image": "assets/images/database.jpeg"
     },
