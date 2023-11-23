@@ -1,69 +1,58 @@
 {
   "jobs": [
     {
-      "start": "Jan 1920",
-      "end": "Dec 1929",
-      "role": "Jay Gatsby",
-      "company": "Roaring 20s",
-      "description": "The Roaring Twenties, sometimes stylized as Roaring '20s, refers to the 1920s decade in music and fashion, as it happened in Western society and Western culture.",
+      "start": "Jul 2021",
+      "end": "Present",
+      "role": "Lead Software Developer",
+      "company": "InterSystems",
+      "description": "InterSystems is a vendor for high-performance, multi-model database platforms that drive application development and data management solutions. Its technology spans several industries, including finance, government, supply chain, and healthcare, of which Epic Systems is a premiere client.",
       "experiences": [
-        "Looked out at the green light",
-        "Hit somebody with my car",
-        "Fell in love with Daisy and threw a massive party where there were a ton of people there having fun and partying really hard"
+        "Wrote packageable demo for testing database read and write speeds when ingesting data from Kafka message service",
+        "Implemented Velero backup feature for sandbox that hosts Kubernetes-based InterSystems applications",
+        "Built pipeline customization tool that allows for configuration of loading, transformation, and validation steps for data in varied formats",
+        "Designed interface for managing topology of data (primary keys, data types, etc.) in disparate sources available for loading"
       ],
-      "image": "assets/images/roaring-20s.jpeg"
+      "image": "assets/images/database.jpeg"
     },
     {
-      "start": "Jan 1930",
-      "end": "Dec 1933",
-      "role": "Beggar",
-      "company": "Great Depression",
-      "description": "The Great Depression was an economic shock that affected most countries across the world. It was a period of economic depression that became evident after a major fall in stock prices in the United States.",
+      "start": "Mar 2020",
+      "end": "Jul 2021",
+      "role": "Mentor",
+      "company": "Codementor",
+      "description": "Codementor is a platform that connects users with freelance software developers to complete desired projects or generally help with coding. It's the largest code mentorship community in the world.",
       "experiences": [
-        "At turtle soup",
-        "Fought someone in the street and man did I lose like he really beat me up, I'm unsure how I'll ever recover emotionaly",
-        "Asked a passerby on the street if I could have a piece of bread and they politely declined which I thought was sort of rude to be honest"
+        "Maintained relationships with clients by providing thoughtful documentation and progress updates",
+        "Created Python application for cryptocurrency trading based on momentum strategy",
+        "Assembled pipeline for building, testing, and version control in order to distribute code as PyPI packages"
       ],
-      "image": "assets/images/great-depression.jpeg"
+      "image": "assets/images/mentor.jpeg"
     },
     {
-      "start": "Sep 1941",
-      "end": "May 1945",
-      "role": "Winston Churchill",
-      "company": "World War II",
-      "description": "World War II or the Second World War was a global conflict that lasted from 1939 to 1945. The vast majority of the world's countries, including all the great powers, fought as part of two opposing military alliances: the Allies and the Axis.",
+      "start": "Jun 2019",
+      "end": "Aug 2020",
+      "role": "Full Stack & Machine Learning Engineer",
+      "company": "Gravyty",
+      "description": "Gravyty provides AI-driven tools and automation with the purpose of increasing fundraising capacity and community engagement. Their customer base consists mostly of higher education institutions and nonprofits.",
       "experiences": [
-        "Fought in the trenches and lost both of my feet unfortunately",
-        "Rolled around in a tank and looked for bad guys",
-        "Ate military rations like really hard biscuits and other similar foods"
+        "Expanded email template feature by connecting to a Yelp API and providing restaurant meeting suggestions with dynamic location",
+        "Constructed Django web page for viewing donor interaction history, including search and filter inputs",
+        "Spun off spaCy natural language processing module into microservice for more optimized vertical scaling",
+        "Developed functionality for determining if text is referencing holidays or other moments in time"
       ],
-      "image": "assets/images/roaring-20s.jpeg"
+      "image": "assets/images/fundraising.png"
     },
     {
-      "start": "Jan 1960",
-      "end": "Dec 1970",
-      "role": "Ronald Reagon",
-      "company": "Cold War",
-      "description": "The Cold War was a period of geopolitical tension between the United States and the Soviet Union and their respective allies, the Western Bloc and the Eastern Bloc.",
+      "start": "Jun 2018",
+      "end": "Jul 2018",
+      "role": "Alexa Software Developer",
+      "company": "Boston College",
+      "description": "Boston College collaborated with Amazon Alexa in order to develop a classroom Alexa skill that facilitates activities like discussions and note-taking.",
       "experiences": [
-        "Found out that Communists aren't a lot of fun",
-        "I was out on the water in a dingy during the Cuban Missile Crisis and it was a close call",
-        "Worked as an undercover secret agent in Russia and I was pretty good"
+        "Held ongoing discussions with professors to collect stakeholder feedback and design applications based on user stories",
+        "Built JavaScript APIs to retrieve assignments and discussion questions from Canvas, as well as store notes in Google Sheets",
+        "Utilized speech recognition software and dialogue management techniques to produce organic interactions between Alexa and end users"
       ],
-      "image": "assets/images/great-depression.jpeg"
-    },
-    {
-      "start": "Jan 1970",
-      "end": "Dec 1980",
-      "role": "A Hippie",
-      "company": "Flower Power",
-      "description": "Flower power was a slogan used during the late 1960s and early 1970s as a symbol of passive resistance and nonviolence.",
-      "experiences": [
-        "Did the peace sign a lot and other people enjoyed it",
-        "Rode around on a bus and waved to people and told them to be peaceful",
-        "Went to DC and protested people going to war because that's no fun"
-      ],
-      "image": "assets/images/roaring-20s.jpeg"
+      "image": "assets/images/learning.jpeg"
     }
   ]
 }
