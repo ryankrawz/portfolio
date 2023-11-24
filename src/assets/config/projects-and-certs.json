@@ -2,86 +2,65 @@
   "projects": [
     {
       "name": "freeCodeCamp Responsive Web Design",
-      "description": "In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.",
-      "tags": ["HTML", "CSS", "Web Design", "Accessibility"],
+      "description": "A series of web page projects that validate proficiency in HTML and CSS, as well as test for knowledge in semantic HTML, mobile responsiveness, and advanced styling like animations.",
+      "tags": ["HTML", "CSS", "UI/UX", "Accessibility"],
       "type": "Certification",
       "link": "https://www.freecodecamp.org/certification/ryankrawczyk/responsive-web-design"
     },
     {
-      "name": "freeCodeCamp Responsive Web Design",
-      "description": "In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.",
-      "tags": ["HTML", "CSS", "Web Design", "Accessibility"],
+      "name": "Sports Arbitrage System",
+      "description": "A Python program that scrapes major betting platforms and detects arbitrage opportunities. Such opportunities exist when the odds of a certain team winning a game are different enough on separate platforms that guranteed money can be made by betting one team to win on one site and their opponent to win on the other.",
+      "tags": ["Python", "Web Scraping"],
       "type": "Project",
-      "link": "https://www.freecodecamp.org/certification/ryankrawczyk/responsive-web-design"
+      "link": "https://github.com/ryankrawz/sports-arbitrage-system"
     },
     {
-      "name": "freeCodeCamp Responsive Web Design",
-      "description": "In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.",
-      "tags": ["HTML", "CSS", "Web Design", "Accessibility"],
-      "type": "Certification",
-      "link": "https://www.freecodecamp.org/certification/ryankrawczyk/responsive-web-design"
-    },
-    {
-      "name": "freeCodeCamp Responsive Web Design",
-      "description": "In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.",
-      "tags": ["HTML", "CSS", "Web Design", "Accessibility"],
+      "name": "Look Alive",
+      "description": "A web application similar to the 'Hedbanz' game, where users take turns pointing the screen away from themselves, and the remaining players on the team provide hints so the player can guess the word.",
+      "tags": ["HTML", "CSS", "JavaScript", "Angular", "UI/UX"],
       "type": "Project",
-      "link": "https://www.freecodecamp.org/certification/ryankrawczyk/responsive-web-design"
+      "link": "https://github.com/ryankrawz/look-alive"
     },
     {
-      "name": "freeCodeCamp Responsive Web Design",
-      "description": "In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.",
-      "tags": ["HTML", "CSS", "Web Design", "Accessibility"],
-      "type": "Certification",
-      "link": "https://www.freecodecamp.org/certification/ryankrawczyk/responsive-web-design"
-    },
-    {
-      "name": "freeCodeCamp Responsive Web Design",
-      "description": "In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.",
-      "tags": ["HTML", "CSS", "Web Design", "Accessibility"],
+      "name": "Game of Risk Network Model",
+      "description": "A Python application that applies graph theory in a digital version of 'Risk', complete with an automatically updating display of the game board. Users also have the option of facing a rule-based agent acting as a computer player.",
+      "tags": ["Python", "Graph Theory"],
       "type": "Project",
-      "link": "https://www.freecodecamp.org/certification/ryankrawczyk/responsive-web-design"
+      "link": "https://github.com/ryankrawz/Game-of-Risk-Network-Model"
     },
     {
-      "name": "freeCodeCamp Responsive Web Design",
-      "description": "In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.",
-      "tags": ["HTML", "CSS", "Web Design", "Accessibility"],
-      "type": "Certification",
-      "link": "https://www.freecodecamp.org/certification/ryankrawczyk/responsive-web-design"
-    },
-    {
-      "name": "freeCodeCamp Responsive Web Design",
-      "description": "In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.",
-      "tags": ["HTML", "CSS", "Web Design", "Accessibility"],
+      "name": "Cryptocurrency Trading Algorithm",
+      "description": "A Python program that can be scheduled to periodically buy or sell cryptocurrency on the FTX exchange. It operates based on a momentum strategy involving moving averages.",
+      "tags": ["Python"],
       "type": "Project",
-      "link": "https://www.freecodecamp.org/certification/ryankrawczyk/responsive-web-design"
+      "link": "https://github.com/ryankrawz/crypto-trading-algorithm"
     },
     {
-      "name": "freeCodeCamp Responsive Web Design",
-      "description": "In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.",
-      "tags": ["HTML", "CSS", "Web Design", "Accessibility"],
-      "type": "Certification",
-      "link": "https://www.freecodecamp.org/certification/ryankrawczyk/responsive-web-design"
-    },
-    {
-      "name": "freeCodeCamp Responsive Web Design",
-      "description": "In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.",
-      "tags": ["HTML", "CSS", "Web Design", "Accessibility"],
+      "name": "Pocket Movie",
+      "description": "A recurrent neural network model trained on movie scripts that can write a new movie with a genre of the user's choice. In addition, it applies a Markov chain to improve the fluency of the script.",
+      "tags": ["Python", "Django", "Machine Learning"],
       "type": "Project",
-      "link": "https://www.freecodecamp.org/certification/ryankrawczyk/responsive-web-design"
+      "link": "https://github.com/ryankrawz/pocket-movie"
     },
     {
-      "name": "freeCodeCamp Responsive Web Design",
-      "description": "In this Responsive Web Design Certification, you'll learn the languages that developers use to build webpages: HTML (Hypertext Markup Language) for content, and CSS (Cascading Style Sheets) for design.",
-      "tags": ["HTML", "CSS", "Web Design", "Accessibility"],
-      "type": "Certification",
-      "link": "https://www.freecodecamp.org/certification/ryankrawczyk/responsive-web-design"
+      "name": "Max Flow with NetworkX",
+      "description": "A Python client that maintains a data structure of a directed graph, and can leverage either a breadth-first search or Dijkstra's algorithm to compute the maximum flow of the graph. There are also utilities included for analyzing the run time and efficiency of these different algorithms.",
+      "tags": ["Python", "Graph Theory"],
+      "type": "Project",
+      "link": "https://github.com/ryankrawz/networkx-max-flow"
     }
   ],
   "tagColors": {
     "HTML": "#e34d27",
     "CSS": "#9d73ec",
-    "Web Design": "#c79b01",
-    "Accessibility": "#0133cb"
+    "UI/UX": "#c79b01",
+    "Accessibility": "#0133cb",
+    "Python": "#016e0e",
+    "Web Scraping": "#800155",
+    "JavaScript": "#08014a",
+    "Angular": "#ab0303",
+    "Graph Theory": "#72b802",
+    "Machine Learning": "#02b7ba",
+    "Django": "#6e5e48"
   }
 }
