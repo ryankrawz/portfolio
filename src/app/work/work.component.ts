@@ -23,6 +23,9 @@ export class WorkComponent implements OnInit {
   currentJobIdx: number | undefined;
   maxJobIdx: number = 0;
   slideAmount: number | undefined;
+  // Flag to help determine when margin transition should be applied
+  // so that timeline doesn't slide into place when rendering.
+  timelineReady: boolean = false;
 
   constructor(
     private loadConfigService: LoadConfigService,
@@ -38,6 +41,7 @@ export class WorkComponent implements OnInit {
         this.currentJobIdx = this.maxJobIdx;
         this.slideAmount = -100 * this.currentJobIdx;
       }
+      this.timelineReady = true;
     });
   }
 

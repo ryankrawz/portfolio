@@ -1,4 +1,4 @@
-<div class="section-container full-page">
+<div *ngIf="timelineReady" class="section-container full-page">
   <h1 class="prof-experiences-header">Professional Experiences</h1>
   <div class="page-button-container">
     <i
@@ -17,7 +17,13 @@
     ></i>
   </div>
   <!-- Adjusting margin-left slides images off-screen left/right depending on negative/positive value -->
-  <div class="job-container" [ngStyle]="{ 'margin-left': slideAmount + 'vw' }">
+  <div
+    class="job-container"
+    [ngStyle]="{
+      'margin-left': slideAmount + 'vw',
+      transition: timelineReady ? 'margin-left 2s' : ''
+    }"
+  >
     <app-job *ngFor="let job of jobs" [job]="job"></app-job>
   </div>
 </div>
