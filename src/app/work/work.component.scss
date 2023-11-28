@@ -35,6 +35,11 @@
 .job-container {
   height: 100%;
   display: flex;
+  // Instructs the browser to prepare optimizations before
+  // transform property is actually changed in order to boost
+  // performance/responsiveness. SHOULD BE USED SPARINGLY.
+  // https://developer.mozilla.org/en-US/docs/Web/CSS/will-change
+  will-change: transform;
 }
 
 /*
