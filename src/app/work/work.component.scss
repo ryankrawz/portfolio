@@ -5,6 +5,7 @@
   margin: 0 auto;
   font-size: 2rem;
   text-align: center;
+  z-index: 1;
 }
 
 .page-button-container {
@@ -34,7 +35,6 @@
 .job-container {
   height: 100%;
   display: flex;
-  overflow: hidden;
 }
 
 /*
