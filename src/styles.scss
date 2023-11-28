@@ -59,6 +59,7 @@ html, body {
 
 .full-page {
   height: 100vh;
+  min-height: 600px;
 }
 
 @keyframes slide {
@@ -79,6 +80,10 @@ html, body {
   html, body {
     font-size: 0.9em;
   }
+
+  .full-page {
+    min-height: 650px;
+  }
 }
 
 // Laptop
@@ -86,11 +91,19 @@ html, body {
   html, body {
     font-size: 0.95em;
   }
+
+  .full-page {
+    min-height: 650px;
+  }
 }
 
 // Desktop
 @media only screen and (min-width: 1301px) {
   html, body {
     font-size: 1em;
+  }
+
+  .full-page {
+    min-height: 800px;
   }
 }
