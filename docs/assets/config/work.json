@@ -5,7 +5,7 @@
       "end": "Present",
       "role": "Lead Software Developer",
       "company": "InterSystems",
-      "description": "InterSystems is a vendor for high-performance, multi-model database platforms that drive application development and data management solutions. Its technology spans several industries, including finance, government, supply chain, and healthcare, of which Epic Systems is a premiere client.",
+      "description": "InterSystems is a vendor for high-performance, multi-model database platforms that drive application development and data management solutions. Its technology spans several industries, including finance, government, supply chain, and healthcare, of which Epic Systems is a premier client.",
       "experiences": [
         "Wrote packageable demo for testing database read and write speeds when ingesting data from Kafka message service",
         "Implemented Velero backup feature for sandbox that hosts Kubernetes-based InterSystems applications",
