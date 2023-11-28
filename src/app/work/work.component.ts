@@ -20,9 +20,9 @@ export class WorkComponent implements OnInit {
   // Track job currently being viewed in order to
   // correctly display job info and paging chevrons.
   jobs: Job[] = [];
-  currentJobIdx: number = 0;
+  currentJobIdx: number | undefined;
   maxJobIdx: number = 0;
-  slideAmount: number = 0;
+  slideAmount: number | undefined;
 
   constructor(
     private loadConfigService: LoadConfigService,
@@ -33,6 +33,10 @@ export class WorkComponent implements OnInit {
       this.jobs = workObj['jobs'];
       if (this.jobs.length > 0) {
         this.maxJobIdx = this.jobs.length - 1;
+        // Begin with most recent experience at end of timeline.
+        // User begins viewing timeline by paging left to go back in time.
+        this.currentJobIdx = this.maxJobIdx;
+        this.slideAmount = -100 * this.currentJobIdx;
       }
     });
   }
@@ -43,7 +47,7 @@ export class WorkComponent implements OnInit {
 
   // To slide from left to right, move left margin to right by 100vw
   onPageLeft() {
-    if (this.currentJobIdx > 0) {
+    if (this.currentJobIdx !== undefined && this.slideAmount !== undefined && this.currentJobIdx > 0) {
       this.currentJobIdx--;
       this.slideAmount += 100;
     }
@@ -51,7 +55,7 @@ export class WorkComponent implements OnInit {
 
   // To slide from right to left, move left margin to left by 100vw
   onPageRight() {
-    if (this.currentJobIdx < this.maxJobIdx) {
+    if (this.currentJobIdx !== undefined && this.slideAmount !== undefined && this.currentJobIdx < this.maxJobIdx) {
       this.currentJobIdx++;
       this.slideAmount -= 100;
     }
