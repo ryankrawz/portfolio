@@ -20,8 +20,8 @@
   <div
     class="job-container"
     [ngStyle]="{
-      'margin-left': slideAmount + 'vw',
-      transition: timelineReady ? 'margin-left 2s' : ''
+      transform: 'translate(' + slideAmount + 'vw)',
+      transition: timelineReady ? 'transform 2s' : ''
     }"
   >
     <app-job *ngFor="let job of jobs" [job]="job"></app-job>
