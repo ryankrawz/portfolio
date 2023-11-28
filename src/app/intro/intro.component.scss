@@ -22,6 +22,7 @@
 
   p  {
     margin: 0;
+    line-height: 1.5;
   }
 }
 
@@ -43,6 +44,10 @@
     h1 {
       font-size: 2rem;
     }
+
+    p  {
+      line-height: normal;
+    }
   }
 }
 
@@ -63,6 +68,7 @@
 
     p {
       text-align: justify;
+      line-height: normal;
     }
   }
 }
@@ -84,6 +90,7 @@
 
     p {
       text-align: justify;
+      line-height: normal;
     }
   }
 }

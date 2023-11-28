@@ -1,31 +1,17 @@
 {
   "jobs": [
     {
-      "start": "Jul 2021",
-      "end": "Present",
-      "role": "Lead Software Developer",
-      "company": "InterSystems",
-      "description": "InterSystems is a vendor for high-performance, multi-model database platforms that drive application development and data management solutions. Its technology spans several industries, including finance, government, supply chain, and healthcare, of which Epic Systems is a premier client.",
+      "start": "Jun 2018",
+      "end": "Jul 2018",
+      "role": "Alexa Software Developer",
+      "company": "Boston College",
+      "description": "Boston College collaborated with Amazon Alexa in order to develop a classroom Alexa skill that facilitates activities like discussions and note-taking.",
       "experiences": [
-        "Wrote packageable demo for testing database read and write speeds when ingesting data from Kafka message service",
-        "Implemented Velero backup feature for sandbox that hosts Kubernetes-based InterSystems applications",
-        "Built pipeline customization tool that allows for configuration of loading, transformation, and validation steps for data in varied formats",
-        "Designed Angular interface for managing topology of data (primary keys, data types, etc.) in disparate sources available for loading"
+        "Held ongoing discussions with professors to collect stakeholder feedback and design applications based on user stories",
+        "Built JavaScript APIs to retrieve assignments and discussion questions from Canvas, as well as store notes in Google Sheets",
+        "Utilized speech recognition software and dialogue management techniques to produce organic interactions between Alexa and end users"
       ],
-      "image": "assets/images/database.jpeg"
-    },
-    {
-      "start": "Mar 2020",
-      "end": "Jul 2021",
-      "role": "Mentor",
-      "company": "Codementor",
-      "description": "Codementor is a platform that connects users with freelance software developers to complete desired projects or generally help with coding. It's the largest code mentorship community in the world.",
-      "experiences": [
-        "Maintained relationships with clients by providing thoughtful documentation and progress updates",
-        "Created Python application for cryptocurrency trading based on momentum strategy",
-        "Assembled pipeline for building, testing, and version control in order to distribute code as PyPI packages"
-      ],
-      "image": "assets/images/mentor.jpeg"
+      "image": "assets/images/learning.jpeg"
     },
     {
       "start": "Jun 2019",
@@ -42,17 +28,31 @@
       "image": "assets/images/fundraising.png"
     },
     {
-      "start": "Jun 2018",
-      "end": "Jul 2018",
-      "role": "Alexa Software Developer",
-      "company": "Boston College",
-      "description": "Boston College collaborated with Amazon Alexa in order to develop a classroom Alexa skill that facilitates activities like discussions and note-taking.",
+      "start": "Mar 2020",
+      "end": "Jul 2021",
+      "role": "Mentor",
+      "company": "Codementor",
+      "description": "Codementor is a platform that connects users with freelance software developers to complete desired projects or generally help with coding. It's the largest code mentorship community in the world.",
       "experiences": [
-        "Held ongoing discussions with professors to collect stakeholder feedback and design applications based on user stories",
-        "Built JavaScript APIs to retrieve assignments and discussion questions from Canvas, as well as store notes in Google Sheets",
-        "Utilized speech recognition software and dialogue management techniques to produce organic interactions between Alexa and end users"
+        "Maintained relationships with clients by providing thoughtful documentation and progress updates",
+        "Created Python application for cryptocurrency trading based on momentum strategy",
+        "Assembled pipeline for building, testing, and version control in order to distribute code as PyPI packages"
       ],
-      "image": "assets/images/learning.jpeg"
+      "image": "assets/images/mentor.jpeg"
+    },
+    {
+      "start": "Jul 2021",
+      "end": "Present",
+      "role": "Lead Software Developer",
+      "company": "InterSystems",
+      "description": "InterSystems is a vendor for high-performance, multi-model database platforms that drive application development and data management solutions. Its technology spans several industries, including finance, government, supply chain, and healthcare, of which Epic Systems is a premier client.",
+      "experiences": [
+        "Wrote packageable demo for testing database read and write speeds when ingesting data from Kafka message service",
+        "Implemented Velero backup feature for sandbox that hosts Kubernetes-based InterSystems applications",
+        "Built pipeline customization tool that allows for configuration of loading, transformation, and validation steps for data in varied formats",
+        "Designed Angular interface for managing topology of data (primary keys, data types, etc.) in disparate sources available for loading"
+      ],
+      "image": "assets/images/database.jpeg"
     }
   ]
 }
