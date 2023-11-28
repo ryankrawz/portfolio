@@ -36,20 +36,6 @@
   font-size: 2rem;
 }
 
-@keyframes wiggle {
-  0% { transform: rotate(0deg); }
-  10% { transform: rotate(var(--wiggle-degree)); }
-  20% { transform: rotate(0deg); }
-  30% { transform: rotate(calc(-1 * var(--wiggle-degree))); }
-  40% { transform: rotate(0deg); }
-  50% { transform: rotate(var(--wiggle-degree)); }
-  60% { transform: rotate(0deg); }
-  70% { transform: rotate(calc(-1 * var(--wiggle-degree))); }
-  80% { transform: rotate(0deg); }
-  90% { transform: rotate(var(--wiggle-degree)); }
-  100% { transform: rotate(0deg); }
-}
-
 /*
 * SCREEN SIZE RESPONSIVENESS
 */
