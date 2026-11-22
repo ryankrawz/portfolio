@@ -10,6 +10,9 @@
 
 * {
   box-sizing: border-box;
+}
+
+html {
   scroll-behavior: smooth;
 }
 
@@ -55,6 +58,7 @@ html, body {
 .section-container {
   min-height: 100vh;
   position: relative;
+  overflow: hidden;
 }
 
 .full-page {
