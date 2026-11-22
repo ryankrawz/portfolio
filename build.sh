@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ng build --output-path docs --base-href /portfolio/
+npx ng build --output-path docs --base-href /portfolio/
 # Override GitHub's 404 page with index.html so it routes to
 # the application's own 404 page.
 cp docs/index.html docs/404.html
