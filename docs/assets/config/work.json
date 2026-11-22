@@ -50,10 +50,8 @@
         "Converted single-model AI chatbot to agentic RAG system for addressing long-running, multi-component tasks",
         "Engineered hub-and-spoke model for coordinating agent functions (document lookup, Text-to-SQL, graphing, etc.)",
         "Designed context compression framework to support summarization and vector/keyword search for chat history",
-        "Wrote packageable demo for testing database read and write speeds when ingesting data from Kafka message service",
-        "Implemented Velero backup feature for sandbox that hosts Kubernetes-based InterSystems applications",
-        "Built pipeline customization tool that allows for configuration of loading, transformation, and validation steps for data in varied formats",
-        "Created Angular interface for managing topology of data (primary keys, data types, etc.) in disparate sources available for loading"
+        "Implemented service that streams events from Kafka broker to SQL table at 100k+ records per second",
+        "Built pipeline customization tool that allows for configuration of loading, transformation, and validation steps for data in varied formats"
       ],
       "image": "assets/images/database.jpeg"
     }
